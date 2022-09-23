@@ -7,23 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController, Storyboarded {
+class ViewController: UIViewController {
     
-    weak var coordinator: MainCoordinator?
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        print(#line, #file, "storyboard memory address:", storyboard)
-        // Do any additional setup after loading the view.
-        
-    }
-
     @IBAction func buyTapped(_ sender: Any) {
-        coordinator?.buySubscription()
+        navigationController?.pushViewController(BuyViewController.instantiate(), animated: true)
     }
 
     @IBAction func createAccount(_ sender: Any) {
-        coordinator?.createAccount()
+        navigationController?.pushViewController(CreateAccountViewController.instantiate(), animated: true)
     }
 }
 

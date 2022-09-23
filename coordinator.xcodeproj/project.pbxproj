@@ -16,11 +16,10 @@
 		75DB2D9028DCF84500C8F6AA /* coordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2D8F28DCF84500C8F6AA /* coordinatorTests.swift */; };
 		75DB2D9A28DCF84500C8F6AA /* coordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2D9928DCF84500C8F6AA /* coordinatorUITests.swift */; };
 		75DB2D9C28DCF84500C8F6AA /* coordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2D9B28DCF84500C8F6AA /* coordinatorUITestsLaunchTests.swift */; };
-		75DB2DA928DCF86400C8F6AA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2DA828DCF86400C8F6AA /* Coordinator.swift */; };
 		75DB2DAB28DCF87B00C8F6AA /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2DAA28DCF87B00C8F6AA /* Storyboarded.swift */; };
-		75DB2DAD28DCF8A100C8F6AA /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2DAC28DCF8A100C8F6AA /* MainCoordinator.swift */; };
 		75DB2DAF28DCF93700C8F6AA /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2DAE28DCF93700C8F6AA /* BuyViewController.swift */; };
 		75DB2DB128DCF94300C8F6AA /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2DB028DCF94300C8F6AA /* CreateAccountViewController.swift */; };
+		75DB2DF528DD45C700C8F6AA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2DF428DD45C700C8F6AA /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +53,10 @@
 		75DB2D9528DCF84500C8F6AA /* coordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coordinatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DB2D9928DCF84500C8F6AA /* coordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coordinatorUITests.swift; sourceTree = "<group>"; };
 		75DB2D9B28DCF84500C8F6AA /* coordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		75DB2DA828DCF86400C8F6AA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		75DB2DAA28DCF87B00C8F6AA /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		75DB2DAC28DCF8A100C8F6AA /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		75DB2DAE28DCF93700C8F6AA /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		75DB2DB028DCF94300C8F6AA /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		75DB2DF428DD45C700C8F6AA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +110,10 @@
 				75DB2D7828DCF84500C8F6AA /* AppDelegate.swift */,
 				75DB2D7A28DCF84500C8F6AA /* SceneDelegate.swift */,
 				75DB2D7C28DCF84500C8F6AA /* ViewController.swift */,
-				75DB2DAC28DCF8A100C8F6AA /* MainCoordinator.swift */,
 				75DB2DAE28DCF93700C8F6AA /* BuyViewController.swift */,
 				75DB2DB028DCF94300C8F6AA /* CreateAccountViewController.swift */,
-				75DB2DA828DCF86400C8F6AA /* Coordinator.swift */,
 				75DB2DAA28DCF87B00C8F6AA /* Storyboarded.swift */,
+				75DB2DF428DD45C700C8F6AA /* UIViewController.swift */,
 				75DB2D7E28DCF84500C8F6AA /* Main.storyboard */,
 				75DB2D8128DCF84500C8F6AA /* Assets.xcassets */,
 				75DB2D8328DCF84500C8F6AA /* LaunchScreen.storyboard */,
@@ -273,8 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DB2DA928DCF86400C8F6AA /* Coordinator.swift in Sources */,
-				75DB2DAD28DCF8A100C8F6AA /* MainCoordinator.swift in Sources */,
+				75DB2DF528DD45C700C8F6AA /* UIViewController.swift in Sources */,
 				75DB2D7D28DCF84500C8F6AA /* ViewController.swift in Sources */,
 				75DB2DAB28DCF87B00C8F6AA /* Storyboarded.swift in Sources */,
 				75DB2DB128DCF94300C8F6AA /* CreateAccountViewController.swift in Sources */,
